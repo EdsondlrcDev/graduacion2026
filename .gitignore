@@ -1,0 +1,15 @@
+
+#python y derivados de streamlit
+.streamlit/secrets.toml
+
+.venv/
+.venv_old/
+
+__pycache__/
+*.py[cod]
+
+
+# Credenciales
+.env
+.env.*
+!.env.example
