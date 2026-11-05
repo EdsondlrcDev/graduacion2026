@@ -32,6 +32,7 @@ mapa = folium.Map(
     zoom_start=14
 )
 
+
 # Agregar todos los marcadores
 for lugar in ubicaciones:
     folium.Marker(
@@ -43,6 +44,12 @@ for lugar in ubicaciones:
 
 # Mostrar en Streamlit
 st_folium(mapa, use_container_width=True, height=500)
+
+#info del día
+st.subheader("Información sobre el día")
+st.write("El mismo día de la graduación a las 4 pm hay una misa progrmada a los graduados " \
+"en Pueblo Serena, Carr. Nacional #500, Valle alto, MOnterrey, NL, luego de la ceremonia, la fiesta " \
+"iniciaria a las 6 pm.")
 
 #info del hotel
 st.subheader("Hotel (ubicación en el mapa de arriba, solo alejen el zoom)")
