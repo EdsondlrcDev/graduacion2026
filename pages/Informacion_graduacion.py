@@ -48,8 +48,9 @@ st_folium(mapa, use_container_width=True, height=500)
 #info del día
 st.subheader("Información sobre el día")
 st.write("El mismo día de la graduación a las 4 pm hay una misa progrmada a los graduados " \
-"en Pueblo Serena, Carr. Nacional #500, Valle alto, MOnterrey, NL, luego de la ceremonia, la fiesta " \
-"iniciaria a las 6 pm.")
+"en Parroquia El Señor de la Misericordia, ubicado en Pueblo Serena, Carr. Nacional #500, Valle alto, Monterrey, NL, luego de la ceremonia, la fiesta " \
+"iniciaria a las 5 pm. La ubicación de la iglesia tmb está en el mapa (alejen el zoom). " \
+"No es obligatorio asistir, pueden pasar directo al salón pero si van por favor recuerden bañarse, no sean cochinos (Alejandra).")
 
 #info del hotel
 st.subheader("Hotel (ubicación en el mapa de arriba, solo alejen el zoom)")

@@ -20,5 +20,11 @@ ubicaciones = [
         "coords": [25.807205029323104, -100.33358791691057],
         "descripcion": "Aqui vivo pijes",
         "color": "green"
+    },
+    {
+        "nombre": "Iglesia sexo",
+        "coords": [25.57566547179694, -100.2478720751481],
+        "descripcion": "Misa satanica para graduados",
+        "color": "purple"
     }
 ]
